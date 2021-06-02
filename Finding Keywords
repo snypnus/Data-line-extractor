@@ -1,10 +1,10 @@
 #This is a sample file to extract keywords from a file and print those lines in a new file.
 import sys
-file1 = open("D:\\Downloads\File1.txt", "r")
+file1 = open("~\File path\file.txt", "r")
 lines = file1.readlines()
 file1.close()
 
-f = open("D:\\Downloads\myfile.txt", "a+")
+f = open("~\File path\myfile.txt", "a+")
 
 #create an empty list
 stext = []
